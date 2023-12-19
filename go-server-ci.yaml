@@ -15,7 +15,7 @@ spec:
         app: go-server-ci
     spec:
       containers:
-      - image: nkoki3012/go-server-ci
+      - image: docker pull ghcr.io/2023-4400-exp/4432-go-server-ci:e77bf07cd813ee12c2d36e9383c475adf44dbd26@sha256:d05b05f2ebf6878e6d1f49e3ce1caa0ee725e26985c44c52b0197281b91c853e
         name: go-server-ci
 ---
 apiVersion: v1
